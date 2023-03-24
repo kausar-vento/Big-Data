@@ -1,4 +1,4 @@
-<img src="PairRDD.PNG">
+<img src="../PairRDD.PNG">
 <p>Kode program di atas adalah contoh penggunaan Apache Spark
 menggunakan Python. Kode program tersebut melakukan transformasi data dari list ke
 dalam RDD (Resilient Distributed Dataset), lalu melakukan mapping untuk membuat
