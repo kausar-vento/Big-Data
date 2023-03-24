@@ -1,4 +1,4 @@
-<img src="../WordCount.PNG">
+<img src="WordCount.PNG">
 <p>Kode program di atas adalah contoh penggunaan Apache Spark
 menggunakan Python untuk menghitung jumlah kemunculan setiap kata pada sebuah
 file teks (dalam contoh ini menggunakan file README.md yang ada di folder
