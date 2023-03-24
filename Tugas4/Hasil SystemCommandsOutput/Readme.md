@@ -1,1 +1,1 @@
-<img src="SystemCommandsOutput.PNG"
+<img src="SystemCommandsOutput.PNG">
