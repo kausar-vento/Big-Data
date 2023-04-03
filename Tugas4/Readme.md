@@ -50,3 +50,48 @@
     <li>Split: Fungsi ini biasanya digunakan sebagai bagian dari transformasi data di PySpark untuk membagi nilai kolom dalam RDD menjadi beberapa nilai yang terpisah</li>
   </ul>
 </ul>
+<br>
+<br>
+<br>
+<center><h1>Penjelasan Code Program</h1></center>
+<br>
+<b>Accumulator</b>
+<img src="Hasil Accumulator/Accumulator.PNG">
+<p>Kode program di atas menggunakan Apache Spark untuk melakukan
+parallel processing pada sebuah RDD (Resilient Distributed Dataset) dan menghitung
+jumlah total dari nilai-nilai dalam RDD tersebut</p>
+
+<b>BroadCast</b>
+<img src="Hasil Broadcast/Broadcast.PNG">
+<p>Kode program di atas menggunakan Apache Spark untuk membuat sebuah
+objek broadcast variable pada RDD (Resilient Distributed Dataset) yang berisi list nilai
+dari 1 hingga 99. Broadcast variable merupakan variabel yang dapat dibaca oleh semua
+worker nodes pada Spark cluster, dan digunakan untuk mengirimkan nilai yang sama
+ke setiap worker node secara efisien.</p>
+
+<b>PairRDD</b>
+<img src="Hasil PairRDD/PairRDD.PNG">
+<p>Kode program di atas adalah contoh penggunaan Apache Spark
+menggunakan Python. Kode program tersebut melakukan transformasi data dari list ke
+dalam RDD (Resilient Distributed Dataset), lalu melakukan mapping untuk membuat
+pasangan nilai (key, value) yang terdiri dari kata dan panjang kata. Selanjutnya, kode
+program tersebut mengekstrak nilai kunci dan nilai nilai dari pasangan nilai (key, value)
+menggunakan method keys() dan values(), kemudian nilai-nilai tersebut dikumpulkan
+dengan menggunakan method collect().</p>
+
+<b>System Commands Output</b>
+<img src="Hasil SystemCommandsOutput/SystemCommandsOutput.PNG">
+<p></p>
+
+<b>System Commands Output Return Code</b>
+<img src="Hasil SystemCommandsOutputReturnCode/SystemCommandsOutputReturnCode.PNG">
+<p></p>
+
+<b>WordCount</b>
+<img src="Hasil WordCount/WordCount.PNG">
+<p>Kode program di atas adalah contoh penggunaan Apache Spark
+menggunakan Python untuk menghitung jumlah kemunculan setiap kata pada sebuah
+file teks (dalam contoh ini menggunakan file README.md yang ada di folder
+home/cloudera/spark-2.0.0-bin-hadoop2.7). Kode program tersebut membaca file teks
+dari path tertentu, melakukan transformasi data dalam RDD (Resilient Distributed
+Dataset) dengan melakukan pemecahan string</p>
