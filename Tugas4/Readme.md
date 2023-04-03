@@ -81,11 +81,11 @@ dengan menggunakan method collect().</p>
 
 <b>System Commands Output</b>
 <img src="Hasil SystemCommandsOutput/SystemCommandsOutput.PNG">
-<p></p>
+<p>Pada baris pertama, kita mengimpor library tersebut menggunakan import sys.process._. Kemudian, pada baris kedua, kita mengeksekusi perintah shell hadoop fs -ls dan menyimpan hasilnya ke dalam variabel output. Operator !! digunakan untuk mengeksekusi perintah tersebut dan mengembalikan outputnya sebagai string. Pada baris ketiga, kita mencetak hasilnya dengan menambahkan string "result = " pada depan variabel output menggunakan println("result = "+output). Output dari program ini adalah hasil dari perintah hadoop fs -ls yang dijalankan di lingkungan Hadoop.</p>
 
 <b>System Commands Output Return Code</b>
 <img src="Hasil SystemCommandsOutputReturnCode/SystemCommandsOutputReturnCode.PNG">
-<p></p>
+<p>Pada baris pertama, kita mengimpor library tersebut menggunakan import sys.process._. Kemudian, pada baris kedua, kita mengeksekusi perintah shell ls /tmp dan menyimpan hasilnya ke dalam variabel res. Operator ! digunakan untuk mengeksekusi perintah tersebut dan mengembalikan nilai exit status yang menunjukkan apakah perintah telah berhasil dieksekusi atau tidak. Pada baris ketiga, kita mencetak hasilnya dengan menambahkan string "result = " pada depan variabel res menggunakan println("result = "+res). Output dari program ini adalah nilai exit status dari perintah ls /tmp yang dijalankan. Jika perintah berhasil dieksekusi, maka nilai exit status akan bernilai nol (0), sedangkan jika terjadi kesalahan, maka nilai exit status akan bernilai selain nol (non-zero).</p>
 
 <b>WordCount</b>
 <img src="Hasil WordCount/WordCount.PNG">
