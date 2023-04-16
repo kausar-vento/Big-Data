@@ -1,2 +1,2 @@
 <h1>Soal Pratikum</h1>
-<img src="soal.PNG">
+<img src="soal.PNG" width="50%">
