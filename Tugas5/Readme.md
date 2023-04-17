@@ -29,6 +29,7 @@
   <img src="Analitik dengan DataFrames/Method 2.PNG">
   <img src="Analitik dengan DataFrames/Method 3.PNG">
   <li>Membuat DataFrame dari Database Eksterna</li>
+  <img src="Membuat DataFrame dari Database Eksternal/hasil.jpg">
   <li>Mengonversi DataFrames ke RDDs</li>
   <img src="Mengonversi DataFrames ke RDDs/01.PNG">
   <img src="Mengonversi DataFrames ke RDDs/02.PNG">
@@ -36,7 +37,9 @@
   <img src="Membuat Datasets/01.PNG">
   <img src="Membuat Datasets/02.PNG">
   <li>Mengonversi DataFrame ke Datasets dan sebaliknya</li>
+  <img src="Mengonversi DataFrame ke Datasets/hasil.jpg">
   <li>Mengakses Metadata menggunakan Catalog</li>
+  <img src="Membuat DataFrame dari Database Eksternal/hasil.jpg">
   <li>Bekerja dengan berkas teks</li>
   <img src="Bekerja dengan berkas teks/datasourcetext.PNG">
   <li>Bekerja dengan JSON</li>
