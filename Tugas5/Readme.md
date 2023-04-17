@@ -15,9 +15,14 @@
   <li>Melakukan Filtering pada data frame</li>
   <li><b>as</b> adalah metode PySpark yang digunakan untuk memberikan alias pada kolom-kolom dataframe. <b>toDF</b> adalah metode PySpark yang digunakan untuk mengubah RDD menjadi dataframe. <b>first</b> adalah metode PySpark yang digunakan untuk mengambil nilai pertama dari RDD atau dataframe. </li>
   <li><b>listDatabases</b> adalah metode PySpark yang digunakan untuk menampilkan daftar database Spark yang tersedia. <b>listTables</b> adalah metode PySpark yang digunakan untuk menampilkan daftar tabel yang tersedia dalam database Spark. <b>listFunctions</b> adalah metode PySpark yang digunakan untuk menampilkan daftar fungsi yang tersedia dalam SparkSQL. <b>isCached</b> adalah metode PySpark yang digunakan untuk mengecek apakah sebuah tabel sudah di-cache atau belum. <b>select</b> adalah metode PySpark yang digunakan untuk melakukan query data dari tabel. </li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li><b>Read</b> untuk membaca file <b>Text</b> untuk menerima inputan dengan tipe .txt</li>
+  <li><b>load</b> adalah metode PySpark yang digunakan untuk memuat data <b>json</b> adalah metode PySpark yang digunakan untuk membaca data dalam format JSON. <b>format</b> adalah metode PySpark yang digunakan untuk menentukan format file yang akan dibaca atau ditulis. <b>printSchema</b> adalah metode PySpark yang digunakan untuk menampilkan schema dari dataframe. </li>
+  <li><b>Write</b> digunakan untuk menulis <b>save</b> digunakan untuk menyimpan</li>
+  <li>Menulis data ke format parquet.</li>
+  <li><b>Options</b> adalah sebuah dictionary pada Python yang digunakan untuk menyediakan opsi-opsi tambahan pada saat membaca atau menulis data. <b>inferSchema</b> adalah opsi PySpark yang digunakan untuk menentukan apakah schema dari dataframe akan di-infer atau tidak. <b>csv</b> adalah metode PySpark yang digunakan untuk membaca data dalam format CSV. <b>header</b> adalah opsi PySpark yang digunakan untuk menentukan apakah header file CSV digunakan atau tidak. <b>codec</b> adalah opsi PySpark yang digunakan untuk menentukan encoding dari file CSV. </li>
+</ol>
+<br>
+<h2>PRATIKUM</h2>
+<ol>
   <li></li>
 </ol>
