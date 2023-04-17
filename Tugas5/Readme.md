@@ -24,5 +24,6 @@
 <br>
 <h2>PRATIKUM</h2>
 <ol>
-  <li></li>
+  <li>Analitik dengan DataFrames</li>
+  <img src="Analitik dengan DataFrames/Method 1.PNG">
 </ol>
