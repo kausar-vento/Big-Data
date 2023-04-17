@@ -26,4 +26,22 @@
 <ol>
   <li>Analitik dengan DataFrames</li>
   <img src="Analitik dengan DataFrames/Method 1.PNG">
+  <img src="Analitik dengan DataFrames/Method 2.PNG">
+  <img src="Analitik dengan DataFrames/Method 3.PNG">
+  <li>Membuat DataFrame dari Database Eksterna</li>
+  <li>Mengonversi DataFrames ke RDDs</li>
+  <img src="Mengonversi DataFrames ke RDDs/01.PNG">
+  <img src="Mengonversi DataFrames ke RDDs/02.PNG">
+  <li>Membuat Datasets</li>
+  <img src="Membuat Datasets/01.PNG">
+  <img src="Membuat Datasets/02.PNG">
+  <li>Mengonversi DataFrame ke Datasets dan sebaliknya</li>
+  <li>Mengakses Metadata menggunakan Catalog</li>
+  <li>Bekerja dengan berkas teks</li>
+  <img src="Bekerja dengan berkas teks/datasourcetext.PNG">
+  <li>Bekerja dengan JSON</li>
+  <img src="Bekerja dengan JSON/datasourcejson.PNG">
+  <li>Bekerja dengan CSV</li>
+  <img src="Bekerja dengan CSV/01.PNG">
+  <img src="Bekerja dengan CSV/02.PNG">
 </ol>
