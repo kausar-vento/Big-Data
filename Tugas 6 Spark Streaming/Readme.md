@@ -55,8 +55,8 @@
 <ul>
   <li>Metode 1 Mode Stateless Stream Processing
     <ol>
-      <li><img src="Praktik Dasar Spark Streaming/1.PNG"/></li>
-      <li><img src="Praktik Dasar Spark Streaming/2.PNG"/></li>
+      <li><img src="Praktik Dasar Spark Streaming/1.jpg"/></li>
+      <li><img src="Praktik Dasar Spark Streaming/2.jpg"/></li>
     </ol>
   </li>
   <li>Metode 2 Mode Stateful Stream Processing</li>
