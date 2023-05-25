@@ -64,5 +64,10 @@
       <li><img src="Praktik Dasar Spark Streaming/Metode 2 Mode Stateful Stream Processing.jpg"/></li>
     </ul>
   </li>
-  <li>Metode 3 Melakukan Transformasi di Spark Streaming</li>
+  <li>Metode 3 Melakukan Transformasi di Spark Streaming
+    <ul>
+      <li><img src="Melakukan Transformasi di Spark Streaming/1.jpg"/></li>
+      <li><img src="Melakukan Transformasi di Spark Streaming/2.jpg"/></li>
+    </ul>
+  </li>
 </ul>
