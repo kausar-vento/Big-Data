@@ -53,8 +53,12 @@
 </ol>
 <b>4. Kode Program</b>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Metode 1 Mode Stateless Stream Processing
+    <ol>
+      <li><img src="Praktik Dasar Spark Streaming/Mode Stateless Stream Processing.PNG"/></li>
+      <li><img src="Praktik Dasar Spark Streaming/Mode Stateless Stream Processing2.PNG"/></li>
+    </ol>
+  </li>
+  <li>Metode 2 Mode Stateful Stream Processing</li>
+  <li>Metode 3 Melakukan Transformasi di Spark Streaming</li>
 </ul>
