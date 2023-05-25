@@ -30,24 +30,31 @@
   </li>
   <li>
     <ul>
-      <li>spark-submit</li>
-      <li>master</li>
-      <li>local[*]</li>
+      <li>spark-submit: adalah alat baris perintah yang dapat digunakan untuk mengirim pekerjaan Spark. Perintah spark-submit mengambil sejumlah argumen, termasuk jalur ke file jar pekerjaan Spark, URL master, dan opsi untuk pekerjaan</li>
+      <li>master: adalah URL dari klaster Spark yang akan dikirimkan pekerjaan. Nilai default untuk master adalah local[*], yang berarti bahwa pekerjaan akan dijalankan di mesin lokal</li>
+      <li>local[*]: adalah nilai khusus untuk argumen master yang berarti bahwa pekerjaan akan dijalankan di mesin lokal menggunakan semua core yang tersedia.</li>
     </ul>
   </li>
   <li>
     <ul>
-      <li>ssc.checkpoint</li>
-      <li>parallelize</li>
-      <li>updateStateByKey</li>
-      <li>flatMap</li>
+      <li>ssc.checkpoint: adalah metode yang memberi tahu Spark Streaming untuk menyimpan status pekerjaan streaming. Ini berarti Spark akan menyimpan status pekerjaan secara berkala ke disk. Jika pekerjaan gagal, Spark dapat memulai ulang pekerjaan dari status checkpoint terakhir.</li>
+      <li>parallelize: adalah fungsi yang membuat dataset paralel dari koleksi. Dataset paralel adalah dataset terdistribusi yang dapat diproses oleh beberapa pekerja Spark secara paralel.</li>
+      <li>updateStateByKey: adalah fungsi yang memperbarui status pasangan kunci-nilai. Status pasangan kunci-nilai adalah nilai yang terkait dengan kunci. Fungsi updateStateByKey mengambil dua argumen: fungsi yang memperbarui status pasangan kunci-nilai, dan fungsi yang membuat pasangan kunci-nilai baru jika kunci tidak ada</li>
+      <li>flatMap: adalah fungsi yang meratakan dataset bersarang menjadi dataset tunggal. Fungsi flatMap mengambil fungsi yang mengambil dataset bersarang sebagai input dan mengembalikan dataset tunggal sebagai output.</li>
     </ul>
   </li>
   <li>
     <ul>
-      <li>rdd.take(5)</li>
-      <li>transform</li>
-      <li>rdd.sortByKey(False)</li>
+      <li>rdd.take(5): fungsi transformasi, yang berarti mengembalikan RDD baru. Fungsi transform juga merupakan fungsi transformasi, tetapi menerima RDD sebagai input dan mengembalikan RDD baru</li>
+      <li>transform: merupakan fungsi transformasi, tetapi menerima RDD sebagai input dan mengembalikan RDD baru</li>
+      <li>rdd.sortByKey(False): adalah fungsi transformasi yang mengurutkan RDD berdasarkan kunci dalam urutan menurun</li>
     </ul>
   </li>
 </ol>
+<b>4. Kode Program</b>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
